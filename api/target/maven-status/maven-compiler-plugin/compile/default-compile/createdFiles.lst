@@ -1,8 +1,0 @@
-org/codeforall/converters/FamilyToRestFamilyDto.class
-org/codeforall/command/RestFamilyDto.class
-org/codeforall/daos/Dao.class
-org/codeforall/services/FamilyService.class
-org/codeforall/controllers/rest/RestFamilyController.class
-org/codeforall/converters/RestFamilyDtoToFamily.class
-org/codeforall/converters/AbstractConverter.class
-org/codeforall/model/Family.class
