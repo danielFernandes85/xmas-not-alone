@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+.quicksand-header {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    color: #f4f4f4;
+    text-shadow: 0 0 5px #fff, 0 0 10px #080101, 0 0 20px #ff6600; /* Sparkle effect */
+    font-size: 2.5rem;  
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: rgb(0, 20, 0);
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: rgb(212, 11, 0);
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+section {
+    min-width: 100vh;
+    padding: 10rem 12% 10rem;
+    margin-top: 100px;
+}
+
+body {
+    background: url("background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 12%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    color: #f4f4f4;
+    text-shadow: 0 0 5px #fff, 0 0 10px #040100, 0 0 20px #ff6600; /* Sparkle effect */
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 25px var(--main-color);
+}
+
+.navbar a {
+    font-family: 'Quicksand', sans-serif;
+    color: #f4f4f4;
+    text-shadow: 0 0 5px #fff, 0 0 10px #000000, 0 0 20px #ff6600; /* Sparkle effect */
+    font-size: 2.3rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+    border-bottom: 3px transparent;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: 3px var(--main-color);
+    transform: scale(1.1);
+    text-shadow: 0 0 25px var(--main-color);
+}
+
+.container-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container-index p {
+    text-align: justify;
+}
+
+.home {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.home h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.button-find {
+    display: inline-block;
+    background: #fff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: solid;
+    margin: 10px;
+
+}
+
+.button-find:hover {
+    background: #f1f1f1;
+    color: var(--text-color);
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 0 10px var(--main-color);
+    background-color: var(--main-color);
+}
+
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 0;
+}
+
+section {
+    min-width: 100vh;
+    padding: 10rem 12% 10rem;
+    margin-top: 100px;
+}
+
+.container-family {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container-table {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 50px;
+    width: auto;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: solid;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.filter-input {
+    width: 25%;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #D40B00;
+}
+
+.table {
+    width: 100%;
+    max-width: 1500px;
+    table-layout: auto;
+    padding: 0;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 14px;
+    word-wrap: break-word;
+    font-size: 0.8em;
+}
+
+
+input.form-control {
+    font-size: 2rem;
+}
+
+.form-label {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#validation-select {
+    font-size: 2rem;
+}
+
+.form-select {
+    font-size: 2rem;
+    height: 38px;
+}
+
+.form-control {
+    width: 1000px;
+}
+
+.form-check-input {
+    transform: scale(2);
+    margin: 5px;
+}
+
+.form-check-label {
+    font-size: 2rem;
+    margin-left: 20px;
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.form {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.register-family-title {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.description{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    border-radius: 10px;
+}
+
+.description h1{
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 50px;
+    margin:20px;
+}
+
+.description-box {
+    width: 100%;
+    min-height: 50px;
+    resize: none;
+    overflow-y: hidden;
+    padding: 10px;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+.register-family{
+  align-items: center;
+}
+.container-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    padding: 10rem 12% 10rem;
+    margin-top: 100px;
+    min-width: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+}
+
+.submit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-md-8 {
+    margin: 10px 0;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 1rem 12%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: var(--text-color);
+    transform: scale(1.3) translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*------CSS Login-Register-----------*/
+
+.loggin-register {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0px 30px 0px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(255, 255, 255);
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: -5px 0 20px;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 5px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.sendEmail{
+    padding: 20px;
+    
+}
+
+#centerCont{
+    display: flex;
+    justify-content: center;
+}
+
+#emailSend{
+    height: 200px;
+    width: 70vw;
+    font-size: 1.8em;
+}
+
+.sendEmail .bx{
+    font-size: 50px;
+    
+    
+}
+
+#labelCenter{
+    font-size: 2em;
+    text-align: center;
+}
